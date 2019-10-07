@@ -24,7 +24,7 @@ We need to download extra files and place them in `~/OIDv4_ToolKit/OID/csv_folde
 ```
 
 ## Convert OID to XML
-Run `oid_to_pascal_voc_xml.py` from the `OIDv4_ToolKit` root directory.
+Run `oid_to_pascal_voc_xml.py` ([source](https://gist.github.com/nilsfed/1dbf1cf397db50c90705daa6a81a8dec))from the `OIDv4_ToolKit` root directory.
 
 The script will create directories called To_PASCAL_XML (similar to the Label directories) in the Dataset Subdirectories.
 These directories contain the XML files.
