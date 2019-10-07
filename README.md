@@ -5,7 +5,7 @@ The [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.ht
 - [OIDv4_ToolKit](https://github.com/EscVM/OIDv4_ToolKit)
 - [SSD](https://github.com/lufficc/SSD)
 
-## Download only selected classes from Open Images
+## Download only selected classes from Open Images
 Clone the `OIDv4_ToolKit` repo
 ```
 !git clone https://github.com/EscVM/OIDv4_ToolKit
@@ -103,3 +103,10 @@ We can start training with:
 # for example, train SSD300:
 !python train.py --config-file configs/vgg_ssd300_voc0712.yaml --use_tensorboard 0
 ```
+
+## Demo
+Look at the `demo.ipynb` notebook.
+
+## To-do
+- Convert SSD to `ONNX`
+- Convert SSD to `Torchscript`
